@@ -39,7 +39,7 @@ services:
     build:
       context: ./Docker-files/web
     image: raiden1/vprofileweb
-    container_name: vproweb
+    container_name: vproapp
     ports:
       - "80:80"  
 
